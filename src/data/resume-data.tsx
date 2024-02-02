@@ -27,9 +27,9 @@ export const RESUME_DATA = {
   about:
   "Experienced Frontend Developer adept at creating products and structuring solutions.",
   summary:
-  "As a seasoned Frontend Developer, my extensive experience spans across product development and architecture. Although much of my career was spent as an individual contributor, my focus has shifted to technological leadership since 2023. I have a successful track record of working remotely with corporations based in Europe and America. At present, my passions lie in exploring Artificial Intelligence and LLMs.",
+  "As a seasoned Frontend Developer, my extensive experience spans across product development and architecture. Although much of my career was spent as an individual contributor, my focus has shifted to technological leadership since 2023. I have worked remotely with companies based in Europe and America. I am a big fan of the cloud, but at present, my passions lie in exploring Artificial Intelligence and LLMs.",
   avatarUrl: "https://avatars.githubusercontent.com/u/11980348?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  personalWebsiteUrl: "https://cv-radomski.vercel.app/",
   contact: {
     email: "krzysztof_radomski@icloud.com",
     tel: "+48606699693",
@@ -69,7 +69,7 @@ export const RESUME_DATA = {
       start: "2021",
       end: null,
       description:
-      "Implemented novel features and developed internal libraries and templates, established a micro-frontend architecture for a brand-new portal, designed the frontend of an new embedable widget, and lead platform localization efforts. I am proud to have led and mentored a team while simultaneously collaborating with other departments on roadmap creation and sprint execution. Technologies: React, TypeScript, and cloud-based tools."
+      "Implemented UI features and developed internal libraries and templates, established a micro-frontend architecture for the EX platform, designed the frontend structure of an embeddable survey widget, and guided platform localization efforts. I am proud to have led and mentored a team while simultaneously collaborating with other departments on roadmap creation and sprint execution. Technologies: React, TypeScript, and cloud-based tools."
     },
     {
       company: "Neofonie",
@@ -80,7 +80,7 @@ export const RESUME_DATA = {
       start: "2019",
       end: "2021",
       description:
-      "Developed a new portal for Weser Kurier, implemented a variety of web UI features for a Radamacher home automation system, and assisted in the construction of an HRS trading platform from the ground up. Technologies: JavaScript, React, TypeScript, and FreeMarker."
+      "Developed a new portal for Weser Kurier, implemented a variety of web UI features for Radamacher home automation system, and assisted in the construction of a trading platform for HRS. Technologies: JavaScript, React, TypeScript, and FreeMarker."
     },
     {
       company: "Skillbill",
@@ -91,7 +91,7 @@ export const RESUME_DATA = {
       start: "2019",
       end: "2019",
       description:
-      "I served as a consultant for the development and maintenance of portals for a German insurance company and a Latvian TV production agency. Technolgoies: React and TypeScript, and others."
+      "I served as a consultant for the development and maintenance of portals for insurance and TV production companies. Technolgoies: React and TypeScript, and others."
     },
     {
       company: "GogoApps",
@@ -102,7 +102,7 @@ export const RESUME_DATA = {
       start: "2018",
       end: "2019",
       description:
-      "Contributed to the development of several educational applications for the University of Austin, Texas, and played a key role in creating a cryptocurrency portal from its initial stages. Additionally, I have participated in a few minor SSR projects. Technolgoies: React, JavaScript, TypeScript, Three.js, and Gatsby."
+      "Contributed to the development of several educational applications for Arizona State University, and worked on a cryptocurrency portal project. Additionally, I have participated in the creation of the company websiste itself. Technologies: React, JavaScript, TypeScript, Three.js, and Gatsby."
     },
     {
       company: "QuarticON",
@@ -128,7 +128,7 @@ export const RESUME_DATA = {
   skills: [
     "JavaScript",
     "TypeScript",
-    "React/Next.js",
+    "React/Next.js/Remix",
     "Node.js",
     "REST",
     "CSS/HTML",
@@ -141,6 +141,8 @@ export const RESUME_DATA = {
       techStack: [
         "Side Project",
         "React",
+        "TypeScript",
+        "Progress Kendo UI"
       ],
       description: "Hired as a React consultant architect to help with taking a native app to the web. It has been a success and the project is scheduled for production.",
       logo: null,
@@ -148,6 +150,21 @@ export const RESUME_DATA = {
         label: "adp.com",
         href: "https://adp.com/",
       },
+    },
+    {
+      title: 'Netigate EX',
+      techStack: [
+        "TypeScript",
+        "React",
+        "Docker",
+        "PrimeReact"
+      ],
+      description: "New EX platform; I've lead the team that build the UI using microfronted architecture.",
+      logo: null,
+      link: {
+        label: 'Netigate EX',
+        href: "https://netigate.io/ex"
+      }
     },
     {
       title: "Teatr Wybrzeże",
@@ -162,13 +179,35 @@ export const RESUME_DATA = {
     },
     {
       title: "Fairy Tails",
-      techStack: ["Side Project", "Next.js", "Typescript", "AI"],
+      techStack: ["Side Project", "Next.js", "TypeScript", "AI", "Vercel", "Supabase"],
       description:
         "A fairy tale generator that uses AI to generate stories based on user input.",
       logo: null,
       link: {
         label: "Fairytails",
         href: "https://fairytails.vercel.app/",
+      },
+    },
+    {
+      title: "Radamacher Web UI",
+      techStack: ["React", "Redux", "Material UI"],
+      description:
+        "Contributed to much of the codebase of the web UI for a home automation system.",
+      logo: null,
+      link: {
+        label: "Radamacher",
+        href: "https://www.rademacher.de/produkte/smarthome",
+      },
+    },
+    {
+      title: "Weser Kurier",
+      techStack: ["React", "FreeMarker", "CSS", "HTML"],
+      description:
+        "A portal for a regional newspaper in Germany.",
+      logo: null,
+      link: {
+        label: "Weser Kurier",
+        href: "https://www.weser-kurier.de/",
       },
     },
     {
@@ -183,8 +222,24 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: 'ASU',
+      techStack: ["TypeScript",
+      "React",
+      "MobX",
+      "Tailwind",
+      "HTML",
+      "CSS",
+      "React Testing Library"],
+      description: '`...interactive web applications that served as thematic lesson simulations...`',
+      logo: null,
+      link: {
+        label: 'GogoApps & ASU',
+        href: "https://gogoapps.io/projects/arizona-state-university"
+      }
+    },
+    {
       title: "Tanks!",
-      techStack: ["javascript", "canvas", "websockets"],
+      techStack: ["JavaScript", "canvas", "websockets"],
       description: "My own take at the classic arcade game Battle City - featuring realtime multiplayer cooperation.",
       logo: null,
       link: {
@@ -194,7 +249,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Compadre",
-      techStack: ["open source", "javascript"],
+      techStack: ["open source", "JavaScript"],
       description: "A random name generator, my first open source project.",
       logo: null,
       link: {
