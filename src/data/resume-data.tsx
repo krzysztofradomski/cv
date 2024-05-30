@@ -7,7 +7,7 @@ export const RESUME_DATA = {
   location: "Warszawa, Poland, CET",
   locationLink: "https://www.google.com/maps/place/Warszawa",
   about:
-    "Experienced Web Developer adept at creating products and structuring solutions.",
+    "Experienced Web Developer adept at building products and structuring solutions.",
   summary:
     "As a seasoned Web Developer, my experience encompasses architecture, development, and leadership. I am passionate about web technologies and dedicated to enhancing the experiences of both users and team members through my work. Primarily, I consider myself a product engineer, specializing in building user interfaces, a field in which I have over six years of expertise.",
   avatarUrl: "https://avatars.githubusercontent.com/u/11980348?v=4",
@@ -66,7 +66,7 @@ export const RESUME_DATA = {
       stack:
         "Javascript, Typescript, React, Redux, Material UI, HTML, CSS, Webpack, Freemarker, Jest",
       description:
-        "- Implemented support for numerous devices, including smart bulbs, blinds and shutters, cameras, alarm system and fixed numerous bugs in the browser client for Radamaher home automation system; later served as a part time reviewer and consultant on this project. Created numerous widgets, layouts and ui features for the new website for the Weser Kurier regional newspaper. Implemented numerous UI features, including infinite scroll lists, map support, css optimizations, file upload handling, and wrote tests to bring the UI code coverage to over 75% for a new consultant platform for HRS.",
+        "Implemented support for numerous devices, including smart bulbs, blinds and shutters, cameras, alarm system and fixed numerous bugs in the browser client for Radamaher home automation system; later served as a part time reviewer and consultant on this project. Created numerous widgets, layouts and ui features for the new website for the Weser Kurier regional newspaper. Implemented numerous UI features, including infinite scroll lists, map support, css optimizations, file upload handling, and wrote tests to bring the UI code coverage to over 75% for a new consultant platform for HRS.",
     },
     {
       company: "Skillbill (now: Finx)",
