@@ -33,7 +33,7 @@ export default function Page() {
                 {RESUME_DATA.location}
               </a>
             </p>
-            <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
+            <div className="flex gap-x-2 pt-1 font-mono text-sm text-muted-foreground print:hidden">
               {RESUME_DATA.contact.email ? (
                 <Button
                   className="size-8"
@@ -130,14 +130,21 @@ export default function Page() {
                     {work.title}
                   </h4>
                 </CardHeader>
-                <CardContent className="mt-2 text-xs">
+                <CardContent className="mb-4 mt-2 text-sm">
                   {work.stack ? (
                     <>
                       <i className="mb-2 inline-flex gap-x-2">{work.stack}</i>
                       <br />
                     </>
                   ) : null}
-                  {work.description}
+                  <ul className="ml-4 list-disc">
+                    {work.description
+                      .split(".")
+                      .filter(Boolean)
+                      .map((d) => (
+                        <li key={d}>{d}</li>
+                      ))}
+                  </ul>
                 </CardContent>
               </Card>
             );

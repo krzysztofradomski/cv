@@ -6,10 +6,9 @@ export const RESUME_DATA = {
   initials: "KRS",
   location: "Warszawa, Poland, CET",
   locationLink: "https://www.google.com/maps/place/Warszawa",
-  about:
-    "Experienced Web Developer adept at building products and structuring solutions.",
+  about: "Frontend Software Engineer with a Builder's Heart.",
   summary:
-    "As a seasoned Web Developer, my experience encompasses architecture, development, and leadership. I am passionate about web technologies and dedicated to enhancing the experiences of both users and team members through my work. Primarily, I consider myself a product engineer, specializing in building user interfaces, a field in which I have over six years of expertise.",
+    "I am a product engineer with over seven years of expertise in building user interfaces. My passion lies in web technologies, and I am dedicated to enhancing user and team experiences through my work. While I specialize in React.js, my experience spans the entire software development lifecycle, from meticulous craftsmanship to architecture and leadership.",
   avatarUrl: "https://avatars.githubusercontent.com/u/11980348?v=4",
   personalWebsiteUrl: "https://cv-radomski.vercel.app/",
   contact: {
