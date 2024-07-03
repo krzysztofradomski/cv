@@ -130,7 +130,7 @@ export const RESUME_DATA = {
       description: [
         "Implemented support for multiple devices and fixed numerous bugs in React based browser client in a home automation system; later served as part-time reviewer and consultant",
         "Created various HTML widgets and UI features for a newspaper website",
-        "Created admin UI for a data managment project using React and RTK Query",
+        "Created admin UI for a data management project using React and RTK Query",
         "Enhanced website features like infinite scroll lists; added realtime map support; optimized CSS; handled file uploads and increased UI code coverage to over 75% using Jest for a new consultant platform",
       ],
     },
@@ -201,9 +201,16 @@ export const RESUME_DATA = {
       "Storybook",
       "Vite",
       "Node",
+    ],
+    Other: [
+      "Git",
+      "Azure",
+      "Firebase",
+      "Vercel",
+      "Supabase",
+      "Digital Ocean",
       "and more",
     ],
-    Other: ["Azure", "Firebase", "Vercel", "Supabase", "Digital Ocean"],
   },
   projects: [
     {

@@ -98,7 +98,9 @@ export default function Page() {
                   return skills.map((skill, i) => (
                     <span key={skill}>
                       {skill}
-                      {i + 1 === skills.length ? "" : ","}
+                      {i + 1 === Object.entries(RESUME_DATA.skills).length
+                        ? ""
+                        : ","}
                     </span>
                   ));
                 })}
