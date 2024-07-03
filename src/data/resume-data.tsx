@@ -181,15 +181,15 @@ export const RESUME_DATA = {
   ],
   skills: {
     Languages: [
+      "Polish",
+      "English",
+      "German",
       "JavaScript",
       "TypeScript",
       "HTML",
       "CSS",
       "Markdown",
       "SQL",
-      "Polish",
-      "English",
-      "German",
     ],
     "Frameworks and libraries": [
       "React",

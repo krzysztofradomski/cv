@@ -94,16 +94,16 @@ export default function Page() {
           <div className="flex-column flex flex-wrap gap-1">
             <div className="mb-2 flex w-full flex-grow text-sm">
               <div className="flex flex-wrap gap-1 text-pretty font-mono">
-                {Object.entries(RESUME_DATA.skills).map(([group, skills]) => {
-                  return skills.map((skill, i) => (
-                    <span key={skill}>
-                      {skill}
-                      {i + 1 === Object.entries(RESUME_DATA.skills).length
-                        ? ""
-                        : ","}
-                    </span>
-                  ));
-                })}
+                {Object.entries(RESUME_DATA.skills).map(
+                  ([group, skills], i) => {
+                    return skills.map((skill, j) => (
+                      <span key={skill}>
+                        {skill}
+                        {i == 2 && skills.length === j + 1 ? "" : ","}
+                      </span>
+                    ));
+                  },
+                )}
               </div>
             </div>
           </div>
