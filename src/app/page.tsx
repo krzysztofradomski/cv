@@ -93,11 +93,14 @@ export default function Page() {
           <hr />
           <div className="flex-column flex flex-wrap gap-1">
             <div className="mb-2 flex w-full flex-grow text-sm">
-              <div className="flex flex-wrap gap-1 text-pretty font-mono">
+              <div className="flex flex-wrap gap-1 text-pretty font-mono text-muted-foreground">
                 {Object.entries(RESUME_DATA.skills).map(
                   ([group, skills], i) => {
                     return skills.map((skill, j) => (
-                      <span key={skill}>
+                      <span
+                        className="flex flex-wrap gap-1 text-pretty font-mono"
+                        key={skill}
+                      >
                         {skill}
                         {i == 2 && skills.length === j + 1 ? "" : ","}
                       </span>
@@ -154,9 +157,11 @@ export default function Page() {
           <h2 className="text-xl font-bold">Rewards and recognitions</h2>
           <hr />
           <ul className="flex-column flex list-disc flex-wrap gap-1">
-            <ul className="ml-4 list-disc text-pretty font-mono text-sm">
+            <ul className="ml-4 list-disc text-pretty font-mono text-sm text-muted-foreground">
               {RESUME_DATA.rewards.filter(Boolean).map((r, i) => (
-                <li key={i}>{r}</li>
+                <li className="text-pretty font-mono" key={i}>
+                  {r}
+                </li>
               ))}
             </ul>
           </ul>
